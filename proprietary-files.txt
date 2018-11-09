@@ -1602,6 +1602,11 @@ vendor/bin/hw/android.hardware.drm@1.1-service.widevine|a18fb3b14337da6c2e5cf399
 # Wifi - from Nokia 7 Plus Onyx_00WW-user 9 PPR1.180610.011 00WW_3_22C release-keys
 vendor/bin/cnss-daemon|f4603c9502fcf58dcaa285b37ce61bcf8ea97591
 
+# Widevine - from Nokia 7+ Onyx_00WW-user-9-PPR1.180610.011
+vendor/lib64/libwvhidl.so|c43592cf9de090d74e37f438c071256c86f31f9c
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine|a18fb3b14337da6c2e5cf39984287961b90dd527
+
 # Wi-Fi Display
 -app/WfdService/WfdService.apk
 bin/wfdservice
