@@ -25,7 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp \
     ro.opengles.version=196610 \
     ro.qualcomm.cabl=0 \
-    qcom.bluetooth.soc=cherokee \
+    ro.qualcomm.cabl=0 \
     vendor.qcom.bluetooth.soc=cherokee \
     af.fast_track_multiplier=1 \
     vendor.audio_hal.period_size=192 \
@@ -206,10 +206,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.s5k3l8_ofilm.low.lux=379 \
     persist.s5k3l8_ofilm.light.lux=367
 
-# MiuiCamera
-PRODUCT_PROPERTY_OVERRIDES += \
-    camera.shutter_sound.blacklist=com.android.camera
-
 #
 # PROPERTIES FOR IMS
 #
@@ -266,8 +262,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #system props for time-services
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.timed.enable=true \
-    persist.delta_time.enable=true
+    persist.timed.enable=true
 
 #force disable Bluetooth AAC by default
 PRODUCT_PROPERTY_OVERRIDES += \
